@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: sovet_assignment
+  server:
+    netty:
+      access-logger:
+        enabled: true
+        logger-name: customerLogs
+        log-format: common
